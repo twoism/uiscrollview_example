@@ -1,0 +1,357 @@
+TTestScroll
+v7
+r0
+t271873885.706720
+cCheck dependencies
+cProcessInfoPlistFile /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/Info.plist TestScroll-Info.plist
+cCompileXIB /Users/twoism/dev/cocoa/TestScroll/MainWindow.xib
+cCompileXIB /Users/twoism/dev/cocoa/TestScroll/TestScrollViewController.xib
+cCpResource build/Debug-iphonesimulator/TestScroll.app/kenny.jpg kenny.jpg
+cCpResource build/Debug-iphonesimulator/TestScroll.app/turtle.png turtle.png
+cProcessPCH /var/folders/ap/apR8DabnGVyxXgp5-u+Gr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestScroll_Prefix-dyejlujvezrtvffinmxkikxmyvao/TestScroll_Prefix.pch.gch TestScroll_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/main.o /Users/twoism/dev/cocoa/TestScroll/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/TestScrollAppDelegate.o /Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/TestScrollViewController.o /Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/MoveMe.o /Users/twoism/dev/cocoa/TestScroll/Classes/MoveMe.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/KennyScroller.o /Users/twoism/dev/cocoa/TestScroll/Classes/KennyScroller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScroll normal i386
+cGenerateDSYMFile /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app.dSYM /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScroll
+cTouch /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk
+c000000004A70C2D500000000000000EE
+t1248903893
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A67EA2F000000000026EE30
+t1248324143
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A67EAD8000000000027E880
+t1248324312
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A67EAC60000000000001355
+t1248324294
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A67FF090000000000000788
+t1248329481
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A67FFCB000000000166FDB0
+t1248329675
+s23526832
+
+N/Users/twoism/dev/cocoa/TestScroll/Classes/KennyScroller.h
+c000000004A842BE300000000000000EA
+t1250175971
+s234
+i<UIKit/UIKit.h>
+
+N/Users/twoism/dev/cocoa/TestScroll/Classes/KennyScroller.m
+c000000004A843DFD0000000000000218
+t1250180605
+s536
+i"KennyScroller.h"
+i"MoveMe.h"
+
+N/Users/twoism/dev/cocoa/TestScroll/Classes/MoveMe.h
+c000000004A842AF200000000000000D6
+t1250175730
+s214
+i<UIKit/UIKit.h>
+
+N/Users/twoism/dev/cocoa/TestScroll/Classes/MoveMe.m
+c000000004A843DCA00000000000002E5
+t1250180554
+s741
+i"MoveMe.h"
+
+N/Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollAppDelegate.h
+c000000004A84260400000000000001FE
+t1250174468
+s510
+i<UIKit/UIKit.h>
+
+N/Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollAppDelegate.m
+c000000004A8429A10000000000000285
+t1250175393
+s645
+i"TestScrollAppDelegate.h"
+i"TestScrollViewController.h"
+
+N/Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollViewController.h
+c000000004A842C180000000000000168
+t1250176024
+s360
+i<UIKit/UIKit.h>
+i"KennyScroller.h"
+
+N/Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollViewController.m
+c000000004A843CFF00000000000004A8
+t1250180351
+s1192
+i"TestScrollViewController.h"
+i"MoveMe.h"
+
+N/Users/twoism/dev/cocoa/TestScroll/MainWindow.xib
+c000000004A842604000000000000246F
+t1250174468
+s9327
+
+N/Users/twoism/dev/cocoa/TestScroll/TestScrollViewController.xib
+c000000004A84260400000000000018E7
+t1250174468
+s6375
+
+N/Users/twoism/dev/cocoa/TestScroll/TestScroll_Prefix.pch
+c000000004A84260400000000000000BD
+t1250174468
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app
+t1250181085
+s306
+
+N/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app.dSYM
+t1250181085
+s102
+
+N/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/Info.plist
+t1250175404
+s574
+
+N/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/MainWindow.nib
+t1250175405
+s1110
+
+N/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/PkgInfo
+t1250175404
+s8
+
+N/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScroll
+t1250181085
+s21792
+
+N/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScrollViewController.nib
+t1250175405
+s800
+
+N/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/kenny.jpg
+t1250175405
+s199689
+
+N/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/turtle.png
+t1250180209
+s113561
+
+N/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/KennyScroller.o
+t1250181085
+s13372
+
+N/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/MoveMe.o
+t1250180555
+s14652
+
+N/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/TestScroll.LinkFileList
+c000000004A842C5A000000000000029C
+t1250176090
+s668
+
+N/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/TestScrollAppDelegate.o
+t1250176091
+s38236
+
+N/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/TestScrollViewController.o
+t1250180382
+s34100
+
+N/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/main.o
+t1250175406
+s5936
+
+N/Users/twoism/dev/cocoa/TestScroll/kenny.jpg
+c000000004A8428F10000000000030C09
+t1250175217
+s199689
+
+N/Users/twoism/dev/cocoa/TestScroll/main.m
+c000000004A8426040000000000000179
+t1250174468
+s377
+i<UIKit/UIKit.h>
+
+N/Users/twoism/dev/cocoa/TestScroll/turtle.png
+c000000004A843BFA000000000001BB99
+t1250180090
+s113561
+
+N/var/folders/ap/apR8DabnGVyxXgp5-u+Gr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestScroll_Prefix-dyejlujvezrtvffinmxkikxmyvao/TestScroll_Prefix.pch.gch
+t1250175406
+s13034960
+
+NTestScroll-Info.plist
+c000000004A842604000000000000038D
+t1250174468
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies271873885#271873885#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/KennyScroller.o /Users/twoism/dev/cocoa/TestScroll/Classes/KennyScroller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s271873885.531192
+e271873885.656348
+r1
+xCompileC
+xbuild/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/KennyScroller.o
+x/Users/twoism/dev/cocoa/TestScroll/Classes/KennyScroller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/twoism/dev/cocoa/TestScroll/Classes/KennyScroller.m271873885#271873885#0(0"0(0#0#58"/Users/twoism/dev/cocoa/TestScroll/Classes/KennyScroller.m4300882208#1899"    cd /Users/twoism/dev/cocoa/TestScroll    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-generated-files.hmap -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-own-target-headers.hmap -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-all-target-headers.hmap -iquote /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-project-headers.hmap -F/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator -I/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/include -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/DerivedSources/i386 -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/DerivedSources -include /var/folders/ap/apR8DabnGVyxXgp5-u+Gr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestScroll_Prefix-dyejlujvezrtvffinmxkikxmyvao/TestScroll_Prefix.pch -c /Users/twoism/dev/cocoa/TestScroll/Classes/KennyScroller.m -o /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/KennyScroller.o0#
+
+CCompileC build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/MoveMe.o /Users/twoism/dev/cocoa/TestScroll/Classes/MoveMe.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s271873355.637795
+e271873355.761451
+r1
+xCompileC
+xbuild/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/MoveMe.o
+x/Users/twoism/dev/cocoa/TestScroll/Classes/MoveMe.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/twoism/dev/cocoa/TestScroll/Classes/MoveMe.m271873355#271873355#0(0"0(0#0#51"/Users/twoism/dev/cocoa/TestScroll/Classes/MoveMe.m4300882208#1885"    cd /Users/twoism/dev/cocoa/TestScroll    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-generated-files.hmap -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-own-target-headers.hmap -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-all-target-headers.hmap -iquote /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-project-headers.hmap -F/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator -I/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/include -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/DerivedSources/i386 -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/DerivedSources -include /var/folders/ap/apR8DabnGVyxXgp5-u+Gr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestScroll_Prefix-dyejlujvezrtvffinmxkikxmyvao/TestScroll_Prefix.pch -c /Users/twoism/dev/cocoa/TestScroll/Classes/MoveMe.m -o /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/MoveMe.o0#
+
+CCompileC build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/TestScrollAppDelegate.o /Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s271868890.950808
+e271868891.047898
+r1
+xCompileC
+xbuild/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/TestScrollAppDelegate.o
+x/Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollAppDelegate.m271868890#271868891#0(0"0(0#0#66"/Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollAppDelegate.m4300882208#1915"    cd /Users/twoism/dev/cocoa/TestScroll    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-generated-files.hmap -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-own-target-headers.hmap -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-all-target-headers.hmap -iquote /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-project-headers.hmap -F/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator -I/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/include -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/DerivedSources/i386 -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/DerivedSources -include /var/folders/ap/apR8DabnGVyxXgp5-u+Gr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestScroll_Prefix-dyejlujvezrtvffinmxkikxmyvao/TestScroll_Prefix.pch -c /Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollAppDelegate.m -o /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/TestScrollAppDelegate.o0#
+
+CCompileC build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/TestScrollViewController.o /Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s271873182.490645
+e271873182.625056
+r1
+xCompileC
+xbuild/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/TestScrollViewController.o
+x/Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollViewController.m271873182#271873182#0(0"0(0#0#69"/Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollViewController.m4300882208#1921"    cd /Users/twoism/dev/cocoa/TestScroll    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-generated-files.hmap -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-own-target-headers.hmap -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-all-target-headers.hmap -iquote /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-project-headers.hmap -F/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator -I/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/include -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/DerivedSources/i386 -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/DerivedSources -include /var/folders/ap/apR8DabnGVyxXgp5-u+Gr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestScroll_Prefix-dyejlujvezrtvffinmxkikxmyvao/TestScroll_Prefix.pch -c /Users/twoism/dev/cocoa/TestScroll/Classes/TestScrollViewController.m -o /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/TestScrollViewController.o0#
+
+CCompileC build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/main.o /Users/twoism/dev/cocoa/TestScroll/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s271868206.192741
+e271868206.334272
+r1
+xCompileC
+xbuild/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/main.o
+x/Users/twoism/dev/cocoa/TestScroll/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/twoism/dev/cocoa/TestScroll/main.m271868206#271868206#0(0"0(0#0#41"/Users/twoism/dev/cocoa/TestScroll/main.m4300882208#1873"    cd /Users/twoism/dev/cocoa/TestScroll    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-generated-files.hmap -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-own-target-headers.hmap -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-all-target-headers.hmap -iquote /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-project-headers.hmap -F/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator -I/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/include -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/DerivedSources/i386 -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/DerivedSources -include /var/folders/ap/apR8DabnGVyxXgp5-u+Gr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestScroll_Prefix-dyejlujvezrtvffinmxkikxmyvao/TestScroll_Prefix.pch -c /Users/twoism/dev/cocoa/TestScroll/main.m -o /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/twoism/dev/cocoa/TestScroll/MainWindow.xib
+s271868204.903224
+e271868205.330599
+r1
+xCompileXIB
+x/Users/twoism/dev/cocoa/TestScroll/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib271868204#271868205#0(0"0(0#0#49"/Users/twoism/dev/cocoa/TestScroll/MainWindow.xib4300882208#471"    cd /Users/twoism/dev/cocoa/TestScroll    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/MainWindow.nib /Users/twoism/dev/cocoa/TestScroll/MainWindow.xib0#
+
+CCompileXIB /Users/twoism/dev/cocoa/TestScroll/TestScrollViewController.xib
+s271868204.904207
+e271868205.307578
+r1
+xCompileXIB
+x/Users/twoism/dev/cocoa/TestScroll/TestScrollViewController.xib
+lSLF07#2@39"CompileXIB TestScrollViewController.xib271868204#271868205#0(0"0(0#0#63"/Users/twoism/dev/cocoa/TestScroll/TestScrollViewController.xib4300882208#499"    cd /Users/twoism/dev/cocoa/TestScroll    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScrollViewController.nib /Users/twoism/dev/cocoa/TestScroll/TestScrollViewController.xib0#
+
+CCpResource build/Debug-iphonesimulator/TestScroll.app/kenny.jpg kenny.jpg
+s271868205.307677
+e271868205.313512
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TestScroll.app/kenny.jpg
+xkenny.jpg
+lSLF07#2@14"Copy kenny.jpg271868205#271868205#0(0"0(0#0#44"/Users/twoism/dev/cocoa/TestScroll/kenny.jpg4300882208#444"    cd /Users/twoism/dev/cocoa/TestScroll    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/twoism/dev/cocoa/TestScroll/kenny.jpg /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app0#
+
+CCpResource build/Debug-iphonesimulator/TestScroll.app/turtle.png turtle.png
+s271873009.451606
+e271873009.457131
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TestScroll.app/turtle.png
+xturtle.png
+lSLF07#2@15"Copy turtle.png271873009#271873009#0(0"0(0#0#45"/Users/twoism/dev/cocoa/TestScroll/turtle.png4300882208#445"    cd /Users/twoism/dev/cocoa/TestScroll    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/twoism/dev/cocoa/TestScroll/turtle.png /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app0#
+
+CGenerateDSYMFile /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app.dSYM /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScroll
+s271873885.682582
+e271873885.701466
+r1
+xGenerateDSYMFile
+x/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app.dSYM
+x/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScroll
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/TestScroll.app.dSYM build/Debug-iphonesimulator/TestScroll.app/TestScroll271873885#271873885#0(0"0(0#0#88"/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScroll4300882208#380"    cd /Users/twoism/dev/cocoa/TestScroll    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScroll -o /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app.dSYM0#
+
+CLd /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScroll normal i386
+s271873885.656442
+e271873885.682476
+r1
+xLd
+x/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScroll
+xnormal
+xi386
+lSLF07#2@93"Link /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScroll271873885#271873885#0(0"0(0#0#0"4300882208#857"    cd /Users/twoism/dev/cocoa/TestScroll    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -L/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator -F/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator -filelist /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/Objects-normal/i386/TestScroll.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/TestScroll0#
+
+CProcessInfoPlistFile /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/Info.plist TestScroll-Info.plist
+s271868204.881344
+e271868204.903137
+r1
+xProcessInfoPlistFile
+x/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/Info.plist
+xTestScroll-Info.plist
+lSLF07#2@29"Process TestScroll-Info.plist271868204#271868204#0(0"0(0#0#56"/Users/twoism/dev/cocoa/TestScroll/TestScroll-Info.plist4300882208#476"    cd /Users/twoism/dev/cocoa/TestScroll    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TestScroll-Info.plist -genpkginfo /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app/Info.plist0#
+
+CProcessPCH /var/folders/ap/apR8DabnGVyxXgp5-u+Gr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestScroll_Prefix-dyejlujvezrtvffinmxkikxmyvao/TestScroll_Prefix.pch.gch TestScroll_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s271868205.330720
+e271868206.192626
+r1
+xProcessPCH
+x/var/folders/ap/apR8DabnGVyxXgp5-u+Gr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestScroll_Prefix-dyejlujvezrtvffinmxkikxmyvao/TestScroll_Prefix.pch.gch
+xTestScroll_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile TestScroll_Prefix.pch271868205#271868206#0(0"0(0#0#56"/Users/twoism/dev/cocoa/TestScroll/TestScroll_Prefix.pch4300882208#1766"    cd /Users/twoism/dev/cocoa/TestScroll    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-generated-files.hmap -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-own-target-headers.hmap -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-all-target-headers.hmap -iquote /Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/TestScroll-project-headers.hmap -F/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator -I/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/include -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/DerivedSources/i386 -I/Users/twoism/dev/cocoa/TestScroll/build/TestScroll.build/Debug-iphonesimulator/TestScroll.build/DerivedSources -c /Users/twoism/dev/cocoa/TestScroll/TestScroll_Prefix.pch -o /var/folders/ap/apR8DabnGVyxXgp5-u+Gr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestScroll_Prefix-dyejlujvezrtvffinmxkikxmyvao/TestScroll_Prefix.pch.gch0#
+
+CTouch /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app
+s271873885.701558
+e271873885.706672
+r1
+xTouch
+x/Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app
+lSLF07#2@83"Touch /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app271873885#271873885#0(0"0(0#0#0"4300882208#273"    cd /Users/twoism/dev/cocoa/TestScroll    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/twoism/dev/cocoa/TestScroll/build/Debug-iphonesimulator/TestScroll.app0#
+
